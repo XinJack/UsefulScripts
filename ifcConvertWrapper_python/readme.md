@@ -1,0 +1,2 @@
+# python调用命令行执行ifcconvert命令
+- 程序中cmd需要先将路径转到ifcconvert.exe所在的目录，实际上如果路径已经添加到path变量的话就可以不需要这一行
