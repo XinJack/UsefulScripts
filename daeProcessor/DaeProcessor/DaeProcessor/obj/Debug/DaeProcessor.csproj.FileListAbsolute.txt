@@ -1,0 +1,6 @@
+G:\UsefulScripts\daeProcessor\DaeProcessor\DaeProcessor\bin\Debug\DaeProcessor.exe.config
+G:\UsefulScripts\daeProcessor\DaeProcessor\DaeProcessor\bin\Debug\DaeProcessor.exe
+G:\UsefulScripts\daeProcessor\DaeProcessor\DaeProcessor\bin\Debug\DaeProcessor.pdb
+G:\UsefulScripts\daeProcessor\DaeProcessor\DaeProcessor\obj\Debug\DaeProcessor.csprojResolveAssemblyReference.cache
+G:\UsefulScripts\daeProcessor\DaeProcessor\DaeProcessor\obj\Debug\DaeProcessor.exe
+G:\UsefulScripts\daeProcessor\DaeProcessor\DaeProcessor\obj\Debug\DaeProcessor.pdb

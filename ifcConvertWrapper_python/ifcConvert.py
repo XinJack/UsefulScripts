@@ -9,12 +9,12 @@ def process(ifc_file, out_file):
 	'''
 	import os
 	cmd = '''cd G:/BIM+GIS/IfcOpenShell/installed-vs2012-x64/bin & \
-	ifcconvert.exe %s %s
+	ifcconvert.exe "%s" "%s"
 	''' % (ifc_file, out_file)
 	os.system(cmd)
 
 
 if __name__ == '__main__':
-	ifc_file = 'G:\\BIM+GIS\\IFCModels\\demo.ifc'
-	out_file = 'G:\\BIM+GIS\\IFCModels\\demo.dae'
+	ifc_file = 'G:\\BIM+GIS\\IFCModels\\cabr architectrue.ifc'
+	out_file = 'G:\\BIM+GIS\\IFCModels\\cabr architectrue.dae'
 	process(ifc_file, out_file)
