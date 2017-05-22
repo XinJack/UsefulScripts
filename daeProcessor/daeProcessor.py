@@ -117,7 +117,7 @@ def getElementsById(doms, id):
 	return result
 
 if __name__ == '__main__':
-	dae_path = 'G:\\BIM+GIS\\IFCModels\\demo.dae'
+	dae_path = 'G:\\BIM+GIS\\IFCModels\\cabr architectrue.dae'
 	base_output_dae_path = 'G:\\BIM+GIS\\IFCModels'
 
 	# 1iUTeNLx945xp4Fd_hV3Bb存在两次
