@@ -18,6 +18,6 @@ def process(dae_dir_path, out_dir_path):
 			os.system(cmd)
 
 if __name__ == '__main__':
-	dae_dir_path = 'G:\\BIM+GIS\\IFCModels\\cabr architectrue'
-	out_dir_path = 'G:\\BIM+GIS\\IFCModels\\cabr architectrue\\gltf'
+	dae_dir_path = 'G:\\BIM+GIS\\IFCModels\\demo'
+	out_dir_path = 'G:\\BIM+GIS\\IFCModels\\demo\\gltf'
 	process(dae_dir_path, out_dir_path)
