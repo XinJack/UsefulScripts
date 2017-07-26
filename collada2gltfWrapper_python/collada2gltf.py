@@ -11,13 +11,13 @@ def process(dae_dir_path, out_dir_path):
 		if file.endswith('.dae'):
 			file = dae_dir_path + '\\' + file
 			out_file = out_dir_path + '\\' + file[file.rfind('\\') + 1: file.find('.')] + '.gltf'
-			cmd = ''' cd G:\BIM+GIS\collada2gltf\collada2gltf_windows_v1.0-draft_x64 & \
+			cmd = ''' cd C:/Users/dell/Documents/Projects/BIM+GIS & \
 				collada2gltf.exe -f "%s" -o "%s" -e
 			''' % (file, out_file)
 			print(cmd)
 			os.system(cmd)
 
 if __name__ == '__main__':
-	dae_dir_path = 'G:\\BIM+GIS\\IFCModels\\demo'
-	out_dir_path = 'G:\\BIM+GIS\\IFCModels\\demo\\gltf'
+	dae_dir_path = 'C:\\Users\\dell\\Desktop\\Lab'
+	out_dir_path = 'C:\\Users\\dell\\Desktop\\Lab\\gltf'
 	process(dae_dir_path, out_dir_path)

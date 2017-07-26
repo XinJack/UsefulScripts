@@ -120,8 +120,8 @@ def getElementsById(doms, id):
 	return result
 
 if __name__ == '__main__':
-	dae_path = 'G:\\BIM+GIS\\IFCModels\\demo.dae'
-	base_output_dae_path = 'G:\\BIM+GIS\\IFCModels'
+	dae_path = 'C:\\Users\\dell\\Desktop\\Lab.dae'
+	base_output_dae_path = 'C:\\Users\\dell\\Desktop'
 
 	# 1iUTeNLx945xp4Fd_hV3Bb存在两次
 

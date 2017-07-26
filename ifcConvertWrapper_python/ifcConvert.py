@@ -8,13 +8,13 @@ def process(ifc_file, out_file):
 		out_file: dae文件路径
 	'''
 	import os
-	cmd = '''cd G:/BIM+GIS/IfcOpenShell/installed-vs2012-x64/bin & \
-	ifcconvert.exe "%s" "%s"
+	cmd = '''cd C:/Users/dell/Documents/Projects/UsefulScripts/ifcconvert/ & \
+	IfcConvert_me.exe "%s" "%s"
 	''' % (ifc_file, out_file)
 	os.system(cmd)
 
 
 if __name__ == '__main__':
-	ifc_file = 'G:\\BIM+GIS\\IFCModels\\cabr architectrue.ifc'
-	out_file = 'G:\\BIM+GIS\\IFCModels\\cabr architectrue.dae'
+	ifc_file = 'C:\\Users\\dell\\Desktop\\Lab.ifc'
+	out_file = 'C:\\Users\\dell\\Desktop\\Lab.dae'
 	process(ifc_file, out_file)
